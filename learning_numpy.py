@@ -16,9 +16,22 @@ import numpy as np
 # mask = (array_1 % 3 == 0)
 # print(array_1[mask])
 #=====================================
-A = np.array([2, 4, 6])
+# A = np.array([2, 4, 6])
+# print("A:", A)
+# B = np.array([4, 5, 6])
+# print("B:", B)
+# result_1 = A + B
+# print("A + B:", result_1)
+# result_2 = A - B
+# print("A - B:",result_2)
+# result_3 = A * B
+# print("A * B:",result_3)
+# result_4 = A / B
+# print("A / B:",result_4)
+#=====================================
+A = np.array([[2, 4], [6, 8]])
 print("A:", A)
-B = np.array([4, 5, 6])
+B = np.array([[1, 3], [5, 7]])
 print("B:", B)
 result_1 = A + B
 print("A + B:", result_1)
