@@ -45,5 +45,8 @@ import numpy as np
 # eyes = np.eye(10)
 # print(eyes)
 #=====================================
-ran = np.random.rand(100)
-print(ran)
+# ran = np.random.rand(100)
+# print(ran)
+#=====================================
+ran_2D = np.random.rand(100, 50)
+print(ran_2D)
