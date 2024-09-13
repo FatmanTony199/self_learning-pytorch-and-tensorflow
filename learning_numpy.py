@@ -62,3 +62,5 @@ print(randint_2D)
 
 arr= np.arange(25)
 print(arr)
+arr = arr.reshape(5,5)
+print(arr)
