@@ -64,3 +64,8 @@ arr= np.arange(25)
 print(arr)
 arr = arr.reshape(5,5)
 print(arr)
+
+armax = arr.max()
+armin = arr.min()
+print("max:", armax)
+print("min:", armin)
