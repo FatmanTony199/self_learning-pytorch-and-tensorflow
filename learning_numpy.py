@@ -59,3 +59,6 @@ print(randint)
 
 randint_2D = np.random.randint(1,100,(2,3))
 print(randint_2D)
+
+arr= np.arange(25)
+print(arr)
