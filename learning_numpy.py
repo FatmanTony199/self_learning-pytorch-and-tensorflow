@@ -51,5 +51,8 @@ import numpy as np
 # ran_2D = np.random.rand(100, 50)
 # print(ran_2D)
 #=====================================
-randn = np.random.randn(5,5)
-print(randn)
+# randn = np.random.randn(5,5)
+# print(randn)
+#=====================================
+randint = np.random.randint(1,100,10)
+print(randint)
