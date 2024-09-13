@@ -42,5 +42,8 @@ import numpy as np
 # result_4 = A / B
 # print("A / B:",result_4)
 #=====================================
-eyes = np.eye(10)
-print(eyes)
+# eyes = np.eye(10)
+# print(eyes)
+#=====================================
+ran = np.random.rand(100)
+print(ran)
