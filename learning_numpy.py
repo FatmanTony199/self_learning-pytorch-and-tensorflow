@@ -48,5 +48,8 @@ import numpy as np
 # ran = np.random.rand(100)
 # print(ran)
 #=====================================
-ran_2D = np.random.rand(100, 50)
-print(ran_2D)
+# ran_2D = np.random.rand(100, 50)
+# print(ran_2D)
+#=====================================
+randn = np.random.randn(5,5)
+print(randn)
