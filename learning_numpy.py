@@ -69,3 +69,8 @@ armax = arr.max()
 armin = arr.min()
 print("max:", armax)
 print("min:", armin)
+
+argmax = arr.argmax()
+argmin = arr.argmin()
+print("argmax", argmax)
+print("argmin", argmin)
