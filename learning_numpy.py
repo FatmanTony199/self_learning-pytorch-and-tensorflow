@@ -85,3 +85,8 @@ x = np.array([2, 0, 6])
 y = np.array([3, 5, -1])
 print("cross x y:",np.cross(x, y))
 print("cross y z:",np.cross(y, x))
+
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4, 5, 6])
+arr = np.concatenate((arr1, arr2))
+print(arr)
