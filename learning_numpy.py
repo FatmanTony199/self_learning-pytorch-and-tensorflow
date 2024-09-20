@@ -1,5 +1,6 @@
 #python learning_numpy.py
 import numpy as np
+from numpy import random
 
 e_list = [[45, 55, 65, 78, 88],
 			[5, 75, 46, 53, 11],
@@ -133,4 +134,7 @@ print(x)
 
 arr = np.array([6, 7, 8, 9])
 x = np.searchsorted(arr, 7, side='right')
+print(x)
+
+x = random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(100))
 print(x)
