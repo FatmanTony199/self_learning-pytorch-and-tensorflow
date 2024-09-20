@@ -103,3 +103,8 @@ arr = np.array([True, False, True])
 print(np.sort(arr))
 arr = np.array([[3, 2, 4, 8], [5, 9, 1, 7]])
 print(np.sort(arr))
+
+arr = np.array([41, 42, 43, 44])
+x = [True, False, True, False]
+newarr = arr[x]
+print(newarr)
