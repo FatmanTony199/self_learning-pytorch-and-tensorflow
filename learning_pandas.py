@@ -13,3 +13,5 @@ print(num)
 clas = {'name':['Tony', 'jerry', 'gary', 'hom', 'mark'],
 		'number':['20', '24', '13', '7', '16'],}
 print(pd.DataFrame(clas))
+
+print(pd.DataFrame(clas).head(3))
