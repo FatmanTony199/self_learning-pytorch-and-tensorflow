@@ -126,3 +126,7 @@ arr1 = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
 arr2 = np.array([[11, 22, 33, 44], [55, 66, 77, 88]])
 arr = np.concatenate((arr1, arr2), axis=1)
 print(arr)
+
+arr = np.array([1, 2, 3, 4, 5, 4, 4])
+x = np.where(arr == 4)
+print(x)
