@@ -18,3 +18,5 @@ print(pd.DataFrame(clas).head(3))
 find = pd.DataFrame(clas, columns = ['number', 'name'])
 print(find)
 print(find['name'])
+print(find.loc[2])#針對標籤取值
+print(find.iloc[2])#針對欄位位置的整數值取值
