@@ -15,3 +15,5 @@ clas = {'name':['Tony', 'jerry', 'gary', 'hom', 'mark'],
 print(pd.DataFrame(clas))
 
 print(pd.DataFrame(clas).head(3))
+find = pd.DataFrame(clas, columns = ['number', 'name'])
+print(find)
