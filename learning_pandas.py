@@ -9,3 +9,7 @@ num = {"1":"王","2":"王","3":"王","4":"王","5":"王",
 "26":"王","27":"王","28":"王","29":"王","30":"王" }
 num = pd.Series(num)
 print(num)
+
+clas = {'name':['Tony', 'jerry', 'gary', 'hom', 'mark'],
+		'number':['20', '24', '13', '7', '16'],}
+print(pd.DataFrame(clas))
