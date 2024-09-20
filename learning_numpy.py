@@ -108,3 +108,14 @@ arr = np.array([41, 42, 43, 44])
 x = [True, False, True, False]
 newarr = arr[x]
 print(newarr)
+
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+for x in arr:
+  for y in x:
+    print(y)
+
+arr = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+for x in arr:
+	for y in x:
+		for z in y:
+  			print(z)
