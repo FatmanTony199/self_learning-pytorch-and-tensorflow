@@ -6,3 +6,6 @@ titanic_df.head()
 
 y = titanic_df[['Survived']].values.reshape(-1, 1)
 print(y)
+
+X = titanic_df.drop('Survived', axis = 1).values
+print(X)
