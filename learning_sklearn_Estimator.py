@@ -17,3 +17,13 @@ print(lr.intercept_)
 
 print('Coefficient:')
 print(lr.coef_)
+
+
+y_pred = lr.predict(X_validation)
+
+print('真實數字:')
+print(y_validation[:5])
+
+print('\n')
+print('預測結果:')
+print(y_pred[:5])
