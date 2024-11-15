@@ -23,3 +23,6 @@ numpy2 = np.array([[1, 2, 3], [4, 5, 6]])
 
 tensor1 = torch.tensor(numpy2)
 print("dtype:", tensor1.dtype)
+
+tensor2 = torch.Tensor(numpy2)
+print("dtype:", tensor2.dtype)
