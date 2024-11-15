@@ -29,3 +29,6 @@ print("dtype:", tensor2.dtype)
 
 tensor3 = torch.as_tensor(numpy2)
 print("dtype:", tensor3.dtype)
+
+tensor4 = torch.from_numpy(numpy2)
+print("dtype:", tensor4.dtype)
