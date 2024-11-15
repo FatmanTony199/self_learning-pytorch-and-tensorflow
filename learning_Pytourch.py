@@ -15,3 +15,6 @@ print(a)
 if torch.cuda.is_available():
 	cuda0 = torch.device('cuda', 1)
 	t1 = torch.tensor([[1, 2], [3, 4], [5, 6]], dtype=torch.float64, device=cuda0)
+	numpy1 = t1.numpy()
+	print(“numpy1:”, numpy1)
+	print(“type:”, type(numpy1))
