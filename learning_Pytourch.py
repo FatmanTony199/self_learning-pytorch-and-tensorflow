@@ -26,3 +26,6 @@ print("dtype:", tensor1.dtype)
 
 tensor2 = torch.Tensor(numpy2)
 print("dtype:", tensor2.dtype)
+
+tensor3 = torch.as_tensor(numpy2)
+print("dtype:", tensor3.dtype)
