@@ -44,3 +44,16 @@ c = torch.sum(b)
 c.backward()
 
 print(x.grad)
+#####################################
+x = torch.randn(2, 3, requires_grad=True)
+y = torch.randn(2, 3, requires_grad=True)
+z = torch.randn(2, 3, requires_grad=True)
+
+a = x * y
+b = a + z
+c = torch.sum(b)
+
+d = x.detach()
+
+print("d requires grad:", d.requires_grad)
+print("d grad:", d)
