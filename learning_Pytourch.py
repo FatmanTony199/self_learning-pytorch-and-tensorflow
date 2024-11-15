@@ -57,3 +57,14 @@ d = x.detach()
 
 print("d requires grad:", d.requires_grad)
 print("d grad:", d)
+
+##########################################
+x = torch.randn(2, 3, requires_grad=True)
+print("set x requires_grad:", x.requires_grad)
+y = torch.randn(2, 3, requires_grad=True)
+z = torch.randn(2, 3, requires_grad=True)
+with torch.no_grad():
+   a = x * y
+   b = a + z
+   c = torch.sum(b)
+   print("no_grad c requires_grad:", c.requires_grad)
