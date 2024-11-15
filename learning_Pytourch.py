@@ -32,3 +32,15 @@ print("dtype:", tensor3.dtype)
 
 tensor4 = torch.from_numpy(numpy2)
 print("dtype:", tensor4.dtype)
+#######################################
+x = torch.randn(2, 3, requires_grad=True)
+y = torch.randn(2, 3, requires_grad=True)
+z = torch.randn(2, 3, requires_grad=True)
+
+a = x * y
+b = a + z
+c = torch.sum(b)
+
+c.backward()
+
+print(x.grad)
